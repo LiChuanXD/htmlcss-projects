@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>HTML & CSS | Survey Page</title>
+</head>
+<body id="surveyBody">
+    <header>
+        <a href="*">&lt; back</a>
+    </header>
+
+    <h1 id="surveyHeader">Survey Form</h1>
+    <form id="surveyForm">
+        <p>Let me know how can I improve more.</p>
+        <div class="left">
+            <label for="name">Name :</label>
+        </div>
+        <div class="right">
+            <input class="formInput" type="text" placeholder="Enter Your Name" name="name" >
+        </div>
+
+        <div class="left">
+            <label for="email">Email :</label>
+        </div>
+        <div class="right">
+            <input class="formInput" type="email" placeholder="Enter Your Email" name="email" >
+        </div>
+
+        <div class="left">
+            <label for="age">Age :</label>
+        </div>
+        <div class="right">
+            <input class="formInput" type="number" placeholder="Age" >
+        </div>
+
+        <div class="left">
+            <label for="role">Which option best describes your current role?</label>
+        </div>
+        <div class="right">
+            <select class="formInput" name="role">
+                <option disabled>Select an option</option>
+                <option value="student">Student</option>
+                <option value="ftworker">Full-time Worker</option>
+                <option value="ftlearner">Full-time Learner</option>
+                <option value="others">Others</option>
+            </select>
+        </div>
+        
+        <div class="left">
+            <label for="like">Do you like my project so far?</label>
+        </div>
+        <div class="right">
+            <input type="radio" name="like">Yes <br>
+            <input type="radio" name="like">No <br>
+            <input type="radio" name="like">Maybe
+        </div>
+
+        <div class="left">
+            <label for="favourite">What do you most like about my project?</label>
+        </div>
+        <div class="right">
+            <select class="formInput" name="favourite">
+                <option disabled>Select an Option</option>
+                <option value="design" selected>Design</option>
+                <option value="responsive">Responsiveness</option>
+                <option value="function">Functionality</option>
+                <option value="detail">Details</option>
+            </select>
+        </div>
+        
+        <div class="left">
+            <label for="improve">Things that I should improve in the projects <br> (Check all that apply:)</label>
+        </div>
+        <div class="right">
+            <input class="formCbox" type="checkbox" name="feProject">Front-end projects <br>
+            <input class="formCbox" type="checkbox" name="beProject">Back-end projects <br>
+            <input class="formCbox" type="checkbox" name="dataVisual">Data Visualisation <br>
+            <input class="formCbox" type="checkbox" name="design">Design <br>
+            <input class="formCbox" type="checkbox" name="responsiveness">Responsiveness <br>
+            <input class="formCbox" type="checkbox" name="others">Others
+        </div>
+        
+        <div class="left">
+            <label for="comments">Any comments on my projects?</label>
+        </div>
+        <div class="right">
+            <textarea name="comments" id="formTarea" placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <div id="formSubmit">
+            <input id="submitBtn" type="submit" value="Submit">
+        </div>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded" , function(){
+            document.getElementById("submitBtn").addEventListener("click" , function(e){
+                e.preventDefault();
+            })
+        })
+    </script>
+    
+</body>
+</html>

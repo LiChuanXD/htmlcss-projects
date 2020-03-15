@@ -1,0 +1,671 @@
+body{
+    padding : 0;
+    margin : 0;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a{
+    text-decoration: none;
+}
+
+/*tribute page*/
+#tributeBody{
+    padding : 0;
+    margin : 0;
+    line-height: 1.5em;
+    text-align : justify;
+    background-color : #f7f7bb;
+}
+
+#tributeMain{/*tribute body*/
+    margin : 0;
+    padding : 6px;
+}/*tribute body*/
+#tributeMain #tributeHead{/*header*/
+    margin : 0 0 15px 0;
+    padding : 0;
+    text-align : center;
+}/*header*/
+#tributeMain #gabeFig{/*figure div*/
+    text-align : center;
+    margin : 0 auto 20px auto;
+    padding : 5px;
+    width : 95%;
+    height : 250px;
+    background-color : white;
+}/*figure div*/
+#tributeMain #gabeFig img{/*figure image*/
+    height : 190px;
+    width : 320px;
+}/*figure image*/
+#tributeMain #gabeIntro{/*gabe introduction*/
+    padding : 5px;
+}/*gabe introduction*/
+#tributeMain #gabeTime{
+    margin : 0;
+    padding : 0;
+}
+#tributeMain #gabeTime h3{
+    padding : 5px;
+}
+#tributeMain #gabeTime ul{
+    margin : 0;
+    padding-right : 5px;
+}
+#tributeMain #gabeTime ul li{
+    margin : 0 0 10px 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+#tributeBody footer{
+    padding-right : 5px;
+    text-align : right;
+}
+/*tribute page -*/
+
+/*survey page*/
+#surveyBody{
+    background-color : #a9d7d1;
+    padding : 0;
+    margin : 0;
+}/*survey body*/
+#surveyBody #surveyHeader{
+    text-align : center;
+}/*survey header (Survey Form)*/
+#surveyBody #surveyForm{
+    background-color : white;
+    padding : 15px;
+    margin : 0;
+}/*survey form*/
+#surveyBody #surveyForm .formInput{
+    height : 28px;
+    width : 180px;
+}/*all input boxes*/
+#surveyBody #surveyForm p{
+    text-align : center;
+    margin-bottom : 25px;
+}/*let me know*/
+#surveyBody #surveyForm .left{
+    display : inline-block;
+    width : 35%;
+    text-align : right;
+    padding : 0;
+    margin : 7px 5px 10px auto;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+#surveyBody #surveyForm .right{
+    display : inline-block;
+    width : 55%;
+    text-align : left;
+    padding : 0;
+    margin : 7px auto 10px 5px;
+    box-sizing: border-box;
+    vertical-align: middle;
+}
+#surveyBody #surveyForm #formTarea{
+    width : 180px;
+    height  : 50px;
+}/*text area comment*/
+#surveyBody #surveyForm #formSubmit{
+    margin-top : 20px;
+    text-align : center;
+    padding : 0;
+}
+#surveyBody #surveyForm #formSubmit #submitBtn{
+    width : 80px;
+    height : 35px;
+    background-color : #a9d7d1;
+    border : none;
+    color : white;
+    font-size : 18px;
+    border-radius: 7px;
+}
+
+/*survey page -*/
+
+/*Product Landing Page*/
+
+#productBody{/*product page body*/
+    padding : 0;
+    margin : 0;
+    background-color : #eee;
+    text-align : center;
+}/*product page body*/
+#productBody #productHeader{/*fixed header*/
+    position: fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    box-sizing: border-box;
+    margin : 0;
+    background-color : #eee;
+    overflow: hidden;
+}/*fixed header*/
+#productBody #productHeader img{/*header logo*/
+    width : auto;
+    height : 70px;
+    margin : 0;
+    padding : 0;
+}/*header logo*/
+#productBody #productHeader ul{/*header ul*/
+    margin : 0;
+    padding : 0;
+}/*header ul*/
+#productBody ul li{/*list*/
+    margin : 10px auto;
+    padding : 0;
+    list-style: none;
+}/*list*/
+a{/*a tag*/
+    color : black;
+    text-decoration: none;
+}/*a tag*/
+#productBody a:hover{/*a tag hover*/
+    font-weight: bold;
+}/*a tag hover*/
+#productBody #productContent{/*product content*/
+    margin : 220px auto 20px auto;
+    padding : 10px 0;
+}/*product content*/
+#productBody #productContent #productForm{/*form section(subscribe)*/
+    margin : 0 auto 25px auto;
+    padding : 0;
+}/*form section(subscribe)*/
+#productBody #productContent #productForm h2{/*form section(h2)*/
+    margin : 0 auto 25px auto;
+    padding : 0;
+}/*form section(h2)*/
+#productBody #productContent #productForm input{/*form section(input field)*/
+    height : 26px;
+    width : 300px;
+    margin : 0 auto 20px auto;
+}/*form section(input field)*/
+#productBody button{/*buttons*/
+    border : none;
+    background-color : #f3bf0c;
+    height : 35px;
+    width : 100px;
+    margin : 0;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius : 5px;
+}/*buttons*/
+#productBody #productContent #productFeatures{/*product features*/
+    margin : 0 auto 30px auto;
+    padding : 10px 0;
+    display : flex;
+    flex-direction: column;
+}/*product features*/
+#productBody #productContent #productFeatures .featureBox{/*product features box*/
+    margin : 10px auto;
+    padding : 0;
+    width : 100%;
+}/*product features box*/
+#productBody #productContent #productFeatures .featureBox img{/*product features box images*/
+    height : 100px;
+    width : 100px;
+}/*product features box images*/
+#productBody #productContent #demo{
+    height : 200px;
+    padding : 0;
+    margin : 0 auto 30px auto;
+    box-sizing: border-box;
+    overflow : hidden;
+}/*iframe div*/
+#productBody #productContent #demo #iframe{
+    height : 200px;
+}/*iframe*/
+#productBody #productContent #pricing{
+    display : flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#productBody #productContent #pricing .priceBox{
+    border : 1px black solid;
+    margin : 20px auto;
+    padding : 0 0 20px 0;
+    width : 340px;
+}/*pricing box*/
+#productBody #productContent #pricing .priceBox .boxHead{
+    background-color : #ddd;
+    padding : 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin : 0;
+    height : 80px;
+}/*pricing box head*/
+#productBody #productContent #pricing .priceBox .boxHead h2{
+    margin : 25px auto;
+    padding : 0;
+}/*pricing box head h2*/
+#productBody #productContent #pricing .priceBox p{
+    margin : 5px auto;
+}/*pricing box p*/
+#productBody #productContent #pricing .priceBox button{
+    margin-top : 25px;
+}/*pricing box donate button*/
+#productBody #productFoot{
+    margin : 0;
+    padding : 0;
+}
+#productBody #productFoot ul{
+    margin : 0;
+    padding : 0;
+}
+#productBody #productFoot p{
+    text-align : right;
+}
+
+/*Product Landing Page -*/
+
+/*technical documentation page*/
+
+#documentBody #documentNav{
+    color : red;
+    border-bottom : 3px #99a2a2 solid;
+    position : fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    height : 200px;
+    text-align : center;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color : white;
+}
+#documentBody #documentNav ul{
+    height : 130px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding : 0;
+    margin : 0;
+}
+#documentBody #documentNav ul li{
+    list-style: none;
+    border-top : 1px black solid;
+    height : 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#documentBody #documentNav ul li a{
+    display : block;
+    height : 50px;
+    padding-top : 12px;
+}
+
+#documentBody #documentContent{
+    margin-top : 220px;
+    padding : 10px;
+}
+#documentBody #documentContent #reference a{
+    color : blue;
+    text-decoration: underline;
+}
+
+/*technical documentation page*/
+
+
+/*small landscape view*/
+@media(orientation : landscape) and (min-width : 600px){
+    /*tribute page*/
+
+    #tributeMain #gabeFig img{/*figure image*/
+        height : 220px;
+        width : 400px;
+    }/*figure image*/
+
+    /*tribute page -*/
+
+
+    /*survey page*/
+
+    #surveyBody #surveyForm{
+        width : 75%;
+        margin : auto;
+        border-radius : 10px;
+    }/*survey form*/
+    #surveyBody #surveyForm #formTarea{
+        width : 250px;
+        height  : 50px;
+    }/*text area comment*/
+
+    /*survey page -*/
+
+    /*Product Landing Page*/
+
+    #productBody #productHeader ul{/*header ul*/
+        margin : 20px auto 0px auto;
+    }/*header ul*/
+    #productBody ul li{/*list*/
+        display : inline;
+        margin : auto 50px;
+    }/*list*/
+    #productBody #productContent{/*product content*/
+        margin : 180px auto 20px auto;
+    }/*product content*/
+    #productBody #productContent #productForm input{/*form section(input field)*/
+        width : 320px;
+    }/*form section(input field)*/
+    #productBody #productContent #productFeatures .featureBox{/*product features box*/
+        margin : 10px auto;
+        padding : 10px;
+        display : inline-flex;
+    }/*product features box*/
+    #productBody #productContent #productFeatures .featureBox .productDesc{/*product features box images*/
+        margin-left : 15px;
+        width : 75%;
+    }/*product features box descricption*/
+    #productBody #productContent #demo{
+        height : 300px;
+    }/*iframe div*/
+    #productBody #productContent #demo #iframe{
+        height : 300px;
+        width : 550px;
+    }/*iframe*/
+
+    /*Product Landing Page -*/
+
+    /*technical documentation page*/
+
+    #documentBody #documentNav{
+        border-right : 3px #99a2a2 solid;
+        width : 35%;
+        height : 100%;
+    }
+    #documentBody #documentNav ul{
+        height : 265px;
+    }
+
+    #documentBody #documentContent{
+        position : absolute;
+        width : 60%;
+        right : 0;
+        top : 0;
+        margin : 0;
+        padding : 10px;
+    }
+
+    /*technical documentation page*/
+
+}/*small landscape view*/
+
+
+/*media query medium screen -768px- (tablets)*/
+@media screen and (min-width : 768px){
+    #tributeMain{/*tribute body*/
+        padding : 10px;
+    }/*tribute body*/
+    #tributeMain p{
+        font-size : 18px;
+    }
+    #tributeMain #tributeHead{/*header*/
+        margin : 0 0 18px 0;
+    }/*header*/
+    #tributeMain #tributeHead h1{
+        font-size : 38px;
+    }
+    #tributeMain #gabeFig{/*figure div*/
+        padding : 10px;
+        height : 450px;
+    }/*figure div*/
+    #tributeMain #gabeFig figcaption{
+        font-size : 18px;
+    }
+    #tributeMain #gabeFig img{/*figure image*/
+        height : 400px;
+        width : 640px;
+    }/*figure image*/
+    #tributeMain #gabeIntro{/*gabe introduction*/
+        padding : 10px;
+    }/*gabe introduction*/
+    #tributeMain #gabeTime{
+        padding : 10px;
+    }
+    #tributeMain #gabeTime ul{
+        font-size : 18px;
+    }
+    #tributeMain #gabeTime ul li{
+        margin : 0 0 15px 0;
+    }
+    #tributeMain #gabeTime ul li strong{
+        font-size : 20px;
+    }
+    #tributeBody footer{
+        text-align : right;
+        font-size : 18px;
+    }
+    /*^ tribute page ^*/
+
+    /*survey page*/
+    #surveyBody #surveyForm{
+        margin : 0 auto 50px auto;
+        width : 75%;
+        border-radius : 10px;
+    }/*survey form*/
+    #surveyBody #surveyForm .formInput{
+        height : 30px;
+        width : 260px;
+    }/*all input boxes*/
+    #surveyBody #surveyForm p{
+        margin-bottom : 45px;
+    }/*let me know*/
+    #surveyBody #surveyForm .left{
+        margin : 10px 10px 20px auto;
+    }
+    #surveyBody #surveyForm .right{
+        margin : 10px auto 20px 10px;
+    }
+    #surveyBody #surveyForm #formTarea{
+        width : 300px;
+        height  : 60px;
+    }/*text area comment*/
+    #surveyBody #surveyForm #formSubmit #submitBtn{
+        width : 100px;
+        height : 45px;
+    }
+
+    /*^ survey page ^*/
+
+    /*Product Landing Page*/
+
+    #productBody #productHeader ul{/*header ul*/
+        margin-top : 20px;
+    }/*header ul*/
+    #productBody ul li{/*list*/
+        margin : auto 50px;
+        display : inline;
+    }/*list*/
+    #productBody #productContent #productForm input{/*form section(input field)*/
+        width : 320px;
+    }/*form section(input field)*/
+    #productBody #productContent #productFeatures .featureBox{/*product features box*/
+        display : inline-flex;
+    }/*product features box*/
+    #productBody #productContent #productFeatures .featureBox .productDesc{/*product features box description*/
+        margin-left : 15px;
+        width : 75%
+    }/*product features box description*/
+    #productBody #productContent #productFeatures .featureBox img{/*product features box images*/
+        height : 120px;
+        width : 120px;
+    }/*product features box images*/
+    #productBody #productContent #demo{
+        height : 400px;
+        margin-bottom : 60px;
+    }/*iframe div*/
+    #productBody #productContent #demo #iframe{
+        height : 350px;
+        width : 700px;
+    }/*iframe*/
+    #productBody #productContent #pricing .priceBox{
+        margin : 40px auto;
+        width : 480px;
+    }/*pricing box*/
+    #productBody #productContent #pricing .priceBox p{
+        margin : 10px auto;
+    }/*pricing box p*/
+
+    /*Product Landing Page -*/
+
+    /*technical documentation page*/
+
+    #documentBody #documentNav{
+        height : 250px;
+        width : 100%;
+        border-right : none;
+        border-bottom: 3px #99a2a2 solid;
+    }
+    #documentBody #documentNav ul{
+        height : 175px;
+    }
+    #documentBody #documentNav ul li{
+        height : 60px;
+    }
+    #documentBody #documentNav ul li a{
+        padding-top : 17px;
+    }
+
+    #documentBody #documentContent{
+        margin-top : 250px;
+        position : static;
+        width : 100%;
+    }
+    /*technical documentation page*/
+}
+
+
+/*media query (992px) large (laptop / screens)*/
+@media screen and (min-width : 992px){
+    /*tribute page*/
+    #tributeMain{/*tribute body*/
+        padding : 15px;
+    }/*tribute body*/
+    #tributeMain #gabeFig{/*figure div*/
+        margin : 0 auto 30px auto;
+        padding : 20px;
+        height : 600px;
+        background-color : white;
+    }/*figure div*/
+    #tributeMain #gabeFig img{/*figure image*/
+        height : 555px;
+        width : 95%;
+    }/*figure image*/
+    #tributeMain #gabeIntro{/*gabe introduction*/
+        padding : 5px;
+    }/*gabe introduction*/
+    #tributeMain #gabeTime{
+        margin : 0;
+        padding : 0;
+        text-align : center;
+    }
+    #tributeMain #gabeTime h3{
+        padding : 5px;
+        margin-bottom : 35px;
+    }
+    #tributeMain #gabeTime ul{
+        margin : auto;
+        text-align : left;
+        width : 70%;
+    }
+    #tributeMain #gabeTime ul li{
+        margin : 0 0 20px 0;
+        box-sizing: border-box;
+    }
+    /*tribute page -*/
+
+    /*survey page*/
+    #surveyBody #surveyForm .formInput{
+        height : 35px;
+        width : 320px;
+    }/*all input boxes*/
+    #surveyBody #surveyForm p{
+        margin-bottom : 50px;
+    }/*let me know*/
+    #surveyBody #surveyForm #formTarea{
+        width : 350px;
+        height  : 80px;
+    }/*text area comment*/
+    #surveyBody #surveyForm #formSubmit #submitBtn{
+        width : 120px;
+        height : 55px;
+    }
+
+    /*^ survey page ^*/
+
+    /*Product Landing Page*/
+
+    #productBody #productHeader img{/*header logo*/
+        float : left;
+    }/*header logo*/
+    #productBody #productHeader ul{/*header ul*/
+        margin : 20px auto;
+        float : right;
+    }/*header ul*/
+    #productBody ul li{/*list*/
+        margin : auto 30px;
+    }/*list*/
+    #productBody #productContent{/*product content*/
+        margin : 120px auto 20px auto;
+        padding : 10px 0;
+    }/*product content*/
+    #productBody #productContent #productForm{/*form section(subscribe)*/
+        margin : 0 auto 25px auto;
+    }/*form section(subscribe)*/
+    #productBody #productContent #productForm input{/*form section(input field)*/
+        width : 350px;
+    }/*form section(input field)*/
+    #productBody #productContent #productFeatures .featureBox img{/*product features box images*/
+        height : 130px;
+        width : 130px;
+    }/*product features box images*/
+    #productBody #productContent #demo{
+        height : 450px;
+    }/*iframe div*/
+    #productBody #productContent #demo #iframe{
+        height : 400px;
+        width : 650px;
+    }/*iframe*/
+    #productBody #productContent #pricing{
+        flex-direction: row;
+    }
+    #productBody #productContent #pricing .priceBox{
+        width : 350px;
+    }/*pricing box*/
+    #productBody #productFoot ul{
+        text-align : right;
+    }
+    #productBody #productFoot p{
+        text-align : right;
+    }
+
+    /*Product Landing Page -*/
+
+    /*technical documentation page*/
+
+#documentBody #documentNav{
+    border-bottom : none;
+    border-right : 3px #99a2a2 solid;
+    width : 25%;
+    height : 100%;
+}
+#documentBody #documentNav ul{
+    height : 565px;
+}
+#documentBody #documentNav ul li{
+    height : 50px;
+}
+#documentBody #documentNav ul li a{
+    height : 50px;
+    padding-top : 12px;
+}
+#documentBody #documentContent{
+    position: absolute;
+    width : 70%;
+    margin : 0;
+}
+
+/*technical documentation page*/
+
+    
+}
